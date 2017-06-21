@@ -19,3 +19,12 @@ Read here How to use Custom Fields in joomla! 3.7 and above: https://docs.joomla
 
 ## Adding a YouTube Video
 After you have done the steps above you should be able to see your new nx-YouTube Field in the Fields Tab in the Editor View of your Article in the joomla! Backend. Here you have just to enter the Video ID or URL of the desired YouTube Video you would like to display.
+
+
+### Screen with Selection for Custom Field Type
+<img src="https://github.com/marcorensch/nx-youtube-Custom-Field/blob/guide/img/AddField.png" width="50%" />
+
+### Screenshot - Enter Video ID or URL
+<img src="https://github.com/marcorensch/nx-youtube-Custom-Field/blob/guide/img/ArticleFieldConfig.png" width="50%" />
+
+
