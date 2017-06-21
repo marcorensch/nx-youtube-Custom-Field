@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="plugin" version="3.7.0" group="fields" method="upgrade">
+	<name>nx-YouTube Custom Field</name>
+	<author>nx-designs</author>
+	<creationDate>2017-06-21</creationDate>
+	<copyright>Copyright (C) 2017 nx-designs</copyright>
+	<license>GNU/GPL v2.0</license>
+	<authorEmail>info@nx-designs.ch</authorEmail>
+	<authorUrl>www.nx-designs.ch</authorUrl>
+	<version>1.0</version>
+	<description>The nx-YouTube Field plugin lets you display a Responsive YouTube video in extensions where custom fields are supported.</description>
+	<files>
+		<filename plugin="nxyoutube">nxyoutube.php</filename>
+		<folder>params</folder>
+		<folder>tmpl</folder>
+		<file>nxyoutube.css</file>
+		<file>nxyoutube.js</file>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_fields_nxyoutube.ini</language>
+		<language tag="en-GB">en-GB.plg_fields_nxyoutube.sys.ini</language>
+	</languages>
+	 <updateservers>
+	    <server type="plugin" name="nx-YouTube Custom Field" priority="1">http://update.nx-designs.ch/updates/nx-youtubeCustomField_update.xml</server>
+    </updateservers>
+</extension>
