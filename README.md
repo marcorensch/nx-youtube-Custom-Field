@@ -27,4 +27,11 @@ After you have done the steps above you should be able to see your new nx-YouTub
 ### Screenshot - Enter Video ID or URL
 <img src="https://github.com/marcorensch/nx-youtube-Custom-Field/blob/guide/img/ArticleFieldConfig.png" width="50%" />
 
+### Overview of Field Options
 
+- Five new Width Options (100%,75%,50%,33%,25%)
+- Three new Alignement Options
+- Box Shadow Option
+- <strong>Fully Responsive</strong>
+
+<img src="https://github.com/marcorensch/nx-youtube-Custom-Field/blob/guide/img/nx-YouTubeCustFieldOverview.jpg" width="50%" />
