@@ -18,5 +18,9 @@
     background: transparent;
 }
 
+.nx-boxshadow {
+	box-shadow: 	4px 4px 4px #999;
+}
+
 
  

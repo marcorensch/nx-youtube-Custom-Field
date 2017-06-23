@@ -1,5 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <form>
 	<fields name="fieldparams">
+		<fieldset name="fieldparams">
+			<field 
+				name="hidelbl" 
+				type="radio" 
+				default="1" 
+				label="PLG_FIELDS_NXYT_HIDELBL_LBL" 
+				description="PLG_FIELDS_NXYT_HIDELBL_DESC" 
+				class="btn-group btn-group-yesno">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+			</field>
+			<field 
+				name="boxshadow" 
+				type="radio" 
+				default="0" 
+				label="PLG_FIELDS_NXYT_BOXSHADOW_LBL" 
+				description="PLG_FIELDS_NXYT_BOXSHADOW_DESC" 
+				class="btn-group btn-group-yesno">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+			</field>
+			<field 
+				name="width" 
+				type="radio" 
+				default="6" 
+				label="PLG_FIELDS_NXYT_WIDTH_LBL" 
+				description="PLG_FIELDS_NXYT_WIDTH_DESC" 
+				class="btn-group">
+					<option value="12">100%</option>
+					<option value="9">75%</option>
+					<option value="6">50%</option>
+					<option value="4">33%</option>
+					<option value="3">25%</option>
+			</field>
+			<field 
+				name="alignement" 
+				type="radio" 
+				default="1" 
+				label="PLG_FIELDS_NXYT_ALIGN_LBL" 
+				description="PLG_FIELDS_NXYT_ALIGN_DESC" 
+				class="btn-group">
+					<option value="0">PLG_FIELDS_NXYT_ALIGN_L</option>
+					<option value="1">PLG_FIELDS_NXYT_ALIGN_C</option>
+					<option value="2">PLG_FIELDS_NXYT_ALIGN_R</option>
+			</field>
+		</fieldset>
 	</fields>
 </form>
