@@ -16,7 +16,7 @@ $p_width = $field->fieldparams->get('width');
 $p_align = $field->fieldparams->get('alignement');
 $rndm = intval( "0" . rand(1,9) . rand(0,9) . rand(0,9) );
 $p_classes;
-$html;
+$html = '';
 
 
 
