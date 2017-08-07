@@ -35,7 +35,7 @@ switch($p_align){
 		$class = 'span'.$p_width;
 		break;
 	case 1:
-		$class = 'span'.$p_width.' center-span';
+		$class = 'span'.$p_width.' span-center';
 		break;
 	case 2:
 		$offset = (12 - $p_width); // not divided by 2 because whole offset is left
