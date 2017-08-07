@@ -35,12 +35,7 @@ switch($p_align){
 		$class = 'span'.$p_width;
 		break;
 	case 1:
-		$offset = (12 - $p_width)/2; // divided by 2 because half of the offset has to be on the right
-		if(!$offset){ // $p_width = 12 means offset = 0;
-			$class = 'span'.$p_width;	
-		}else{
-			$class = 'offset'.$offset.' span'.$p_width;
-		}
+		$class = 'span'.$p_width.' center-span';
 		break;
 	case 2:
 		$offset = (12 - $p_width); // not divided by 2 because whole offset is left
