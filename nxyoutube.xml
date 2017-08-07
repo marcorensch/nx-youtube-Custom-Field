@@ -7,7 +7,7 @@
 	<license>GNU/GPL v2.0</license>
 	<authorEmail>info@nx-designs.ch</authorEmail>
 	<authorUrl>www.nx-designs.ch</authorUrl>
-	<version>1.1</version>
+	<version>1.2</version>
 	<description>PLG_FIELDS_NXYOUTUBE_DESCRIPTION</description>
 	<files>
 		<filename plugin="nxyoutube">nxyoutube.php</filename>
