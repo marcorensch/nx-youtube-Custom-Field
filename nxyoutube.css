@@ -22,5 +22,10 @@
 	box-shadow: 	4px 4px 4px #999;
 }
 
+.span-center {
+	float: none;
+	margin: 0 auto;	
+}
+
 
  
