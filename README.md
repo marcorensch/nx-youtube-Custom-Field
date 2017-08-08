@@ -30,7 +30,7 @@ After you have done the steps above you should be able to see your new nx-YouTub
 ### Overview of Field Options
 
 - Five new Width Options (100%,75%,50%,33%,25%)
-- Three new Alignement Options
+- Three new Alignment Options
 - Box Shadow Option
 - <strong>Fully Responsive</strong>
 
