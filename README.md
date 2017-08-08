@@ -3,6 +3,9 @@
 
 The free Joomla! Plugin nx-YouTube Custom Field is a new Custom Form Field which allows you to effortlessly embed a YouTube Video before or after any of your Joomla! Articles (like every other Custom Field). And yes, as it should be in the Year 2017 I’m glad to tell you: its fully responsive. Compared to the most other YouTube Embed Plugin, nx-YouTube Custom Field offers you an additional set of options which can be quick configured for every Frontend Instance of the Plugin.
 
+## Live Demo
+More Informations &amp; Live Demo can be found on this Page: http://ytcf.nx-designs.ch
+
 ## Requirements
 1. Website running Joomla! Version 3.7.x
 2. Link to your YouTube Video in one of the following Formats:<br>
@@ -29,11 +32,6 @@ After you have done the steps above you should be able to see your new nx-YouTub
 ### Enter Video ID or URL
 <img src="https://github.com/marcorensch/nx-youtube-Custom-Field/blob/guide/img/Article_Settings_1_EN.jpg" width="100%" />
 
-### Overview of Field Options
-
-- Five new Width Settings (100%, 75%, 50%, 33% or 25%)
-- Three new Alignment Options
-- Box Shadow Option
-- <strong>Fully Responsive</strong>
+### Preview
 
 <img src="https://github.com/marcorensch/nx-youtube-Custom-Field/blob/guide/img/nxyoutubecustomfield_JED_Views.jpg" width="100%" />
