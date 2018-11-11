@@ -31,7 +31,7 @@ jQuery(document).ready(function(){
 	jQuery('.nx-youtubefieldBox').each(function(){
 		var videoID = jQuery(this).attr('data-id'),
 			iframe = '<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/'+videoID+'" frameborder="0" allowfullscreen></iframe>';
-		console.log(videoID);
+		//console.log(videoID);
 		jQuery(this).html(iframe);
 	});
 });
