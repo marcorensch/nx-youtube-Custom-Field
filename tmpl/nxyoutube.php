@@ -60,6 +60,9 @@ if ((strpos($val,"https://")!==false) OR (strpos($val,"http://")!==false))
 	$videoID = $val;
 }
 
+// Add jQuery in noConflict Mode
+JHtml::_('jquery.framework');
+
 // Hide Fieldlabel if selected
 if($hidelabel){
 	$nx_fl_script = '<script>jQuery(document).ready(function(){jQuery(\'#'.$rndm.'\').parent().siblings("span.field-label").hide();});</script>';
