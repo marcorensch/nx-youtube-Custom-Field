@@ -29,6 +29,11 @@ After you have done the steps above you should be able to see your new nx-YouTub
 ### Settings
 <img src="https://github.com/marcorensch/nx-youtube-Custom-Field/blob/guide/img/Settings_1_EN.jpg" width="100%" />
 
+#### Version 1.4 Additional Fields for Setup
+<img src="https://github.com/marcorensch/nx-youtube-Custom-Field/blob/guide/img/v1.4updates.PNG" width="100%" />
+
+__Please Note:__ Apple's Safari Browser on MacOS 10.13+ blocks video Autoplay with sound. There is actually no workaround for that behaviour. The User has to play the video manually.
+
 ### Enter Video ID or URL
 <img src="https://github.com/marcorensch/nx-youtube-Custom-Field/blob/guide/img/Article_Settings_1_EN.jpg" width="100%" />
 
