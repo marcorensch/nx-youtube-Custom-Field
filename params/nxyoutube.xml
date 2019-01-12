@@ -12,6 +12,7 @@
 					<option value="1">JYES</option>
 					<option value="0">JNO</option>
 			</field>
+			<field type="spacer" name="layoutspacer" label="Layout" />
 			<field 
 				name="boxshadow" 
 				type="radio" 
@@ -45,6 +46,87 @@
 					<option value="0">PLG_FIELDS_NXYT_ALIGN_L</option>
 					<option value="1">PLG_FIELDS_NXYT_ALIGN_C</option>
 					<option value="2">PLG_FIELDS_NXYT_ALIGN_R</option>
+			</field>
+			<field type="spacer" name="parameterspacer" label="Parameter" />
+			<field 
+				name="autoplay" 
+				type="radio" 
+				default="0" 
+				label="PLG_FIELDS_NXYT_AUTOPLAY_LBL" 
+				description="PLG_FIELDS_NXYT_AUTOPLAY_DESC" 
+				class="btn-group btn-group-yesno">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+			</field>
+			<field 
+				name="loop" 
+				type="radio" 
+				default="1" 
+				label="PLG_FIELDS_NXYT_LOOP_LBL" 
+				description="PLG_FIELDS_NXYT_LOOP_DESC" 
+				class="btn-group btn-group-yesno">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+			</field>
+			<field 
+				name="cc_load_policy" 
+				type="radio" 
+				default="0" 
+				label="PLG_FIELDS_NXYT_CCLOADPOLICY_LBL" 
+				description="PLG_FIELDS_NXYT_CCLOADPOLICY_DESC" 
+				class="btn-group btn-group-yesno">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+			</field>
+			<field 
+				name="disable_keyboard" 
+				type="radio" 
+				default="0" 
+				label="PLG_FIELDS_NXYT_DISABLEKEYBOARD_LBL" 
+				description="PLG_FIELDS_NXYT_DISABLEKEYBOARD_DESC" 
+				class="btn-group btn-group-yesno">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+			</field>
+			<field 
+				name="controls" 
+				type="radio" 
+				default="1" 
+				label="PLG_FIELDS_NXYT_CONTROLS_LBL" 
+				description="PLG_FIELDS_NXYT_CONTROLS_DESC" 
+				class="btn-group btn-group-yesno">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+			</field>
+			<field 
+				name="fullscreenbtn" 
+				type="radio" 
+				default="1" 
+				label="PLG_FIELDS_NXYT_FULLSCREENBTN_LBL" 
+				description="PLG_FIELDS_NXYT_FULLSCREENBTN_DESC" 
+				class="btn-group btn-group-yesno">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+			</field>
+			<field 
+				name="modestbranding" 
+				type="radio" 
+				default="1" 
+				label="PLG_FIELDS_NXYT_MODESTBRANDING_LBL" 
+				description="PLG_FIELDS_NXYT_MODESTBRANDING_DESC" 
+				class="btn-group btn-group-yesno">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+			</field>
+			<field 
+				name="plays_inline" 
+				type="radio" 
+				default="1" 
+				label="PLG_FIELDS_NXYT_PLAYSINLINE_LBL" 
+				description="PLG_FIELDS_NXYT_PLAYSINLINE_DESC" 
+				class="btn-group btn-group-yesno">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
 			</field>
 		</fieldset>
 	</fields>

@@ -30,7 +30,9 @@ jQuery(document).ready(function(){
 	'use strict';
 	jQuery('.nx-youtubefieldBox').each(function(){
 		var videoID = jQuery(this).attr('data-id'),
-			iframe = '<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/'+videoID+'" frameborder="0" allowfullscreen></iframe>';
+			settings = jQuery(this).attr('data-settings'),
+			allowlist = jQuery(this).attr('data-allow'),
+		 	iframe = '<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/' + videoID + '?version=3' + settings + '" frameborder="0" allow=' + allowlist + ' allowfullscreen></iframe>';
 		//console.log(videoID);
 		jQuery(this).html(iframe);
 	});
