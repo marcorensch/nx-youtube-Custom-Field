@@ -52,7 +52,7 @@ if(intval($loop)){
 	$looping = '1&playlist='.$videoID; 
 }
 
-$setupstring = '$autoplay='.$autoplay.'&controls='.$controls.'&cc_load_policy='.$cc_load_policy.'&disablekb='.$disable_kb.'&loop='.$looping.'&modestbranding='.$modestbranding.'&playsinline='.$plays_inline.'&iv_load_policy=3';
+$setupstring = '&autoplay='.$autoplay.'&controls='.$controls.'&cc_load_policy='.$cc_load_policy.'&disablekb='.$disable_kb.'&loop='.$looping.'&modestbranding='.$modestbranding.'&playsinline='.$plays_inline.'&iv_load_policy=3';
 
 // Container Setup
 $rndm = intval( "0" . rand(1,9) . rand(0,9) . rand(0,9) );
