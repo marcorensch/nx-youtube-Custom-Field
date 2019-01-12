@@ -40,3 +40,27 @@ __Please Note:__ Apple's Safari Browser on MacOS 10.13+ blocks video Autoplay wi
 ### Preview
 
 <img src="https://github.com/marcorensch/nx-youtube-Custom-Field/blob/guide/img/nxyoutubecustomfield_JED_Views.jpg" width="100%" />
+
+## Changelog
+
+#### Version 1.3  
+
+* Changed Service URL to YouTube NoCookie Domain (GDPR / DSGVO)
+
+##### Version 1.3.1 
+
+* The Plugin now loads jQuery from Joomla! if needed.  
+(https://github.com/marcorensch/nx-youtube-Custom-Field/issues/5)
+
+#### Version 1.4  
+
+* Added Options to set Youtube Player Options
+  * Autoplay  
+  * Loop  
+  * Subtitle
+  * Keyboard Controls  
+  * Controlbar  
+  * Fullscreenbutton  
+  * Modestbranding (YT Logo in Player Controlbar)  
+  * iOS Inline Playback
+* Code Optimizations
